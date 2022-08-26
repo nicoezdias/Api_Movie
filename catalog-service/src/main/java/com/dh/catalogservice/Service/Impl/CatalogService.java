@@ -21,9 +21,10 @@ public class CatalogService implements ICatalogService {
 
     @Override
     public CatalogDto getCatalogByGenre(String genere) {
-        ResponseEntity<List<MovieDto>> musicResponse = movieFeignClient.findMovieByGenre(genere);
-        if (musicResponse.getStatusCode().is2xxSuccessful())
-            return new CatalogDto(genere, musicResponse.getBody());
+        ResponseEntity<List<MovieDto>> movieResponse = movieFeignClient.findMovieByGenre(genere);
+        System.out.println(movieResponse.getHeaders().get("port"));
+        if (movieResponse.getStatusCode().is2xxSuccessful())
+            return new CatalogDto(genere, movieResponse.getBody());
         return null;
     }
 }

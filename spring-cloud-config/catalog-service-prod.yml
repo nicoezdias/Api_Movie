@@ -1,0 +1,8 @@
+server:
+  port: 8085
+
+info:
+  app:
+    name: catalog-service
+    description: Catalog Service created for Parcial
+    version: 1.0.0
