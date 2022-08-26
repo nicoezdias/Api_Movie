@@ -7,4 +7,4 @@ spring:
         enabled: true
         service-id: config-service
   profiles:
-    active: prod
+    active: dev
