@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/nicoezdias/Parcial_E_Back
+          uri: https://github.com/nicoezdias/Api_Movie
           searchPaths: spring-cloud-config
 
 eureka:
