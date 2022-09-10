@@ -4,5 +4,5 @@ server:
 info:
   app:
     name: catalog-service
-    description: Catalog Service created for Final
-    version: 2.0.0
+    description: Catalog Service created for Parcial
+    version: 1.0.0
