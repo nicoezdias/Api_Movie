@@ -1,0 +1,15 @@
+server:
+  port: 8084
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: Series
+
+info:
+  app:
+    name: movie-service
+    description: Movie Service created for Final
+    version: 1.0.0

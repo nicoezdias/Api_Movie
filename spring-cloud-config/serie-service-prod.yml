@@ -1,0 +1,15 @@
+server:
+  port: 8085
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: Series
+
+info:
+  app:
+    name: serie-service
+    description: Serie Service created for Final
+    version: 1.0.0
